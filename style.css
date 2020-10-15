@@ -1,39 +1,5 @@
-.nav-big__link, .welcome__link, .news__link, .story__link {
-  font: 12px/11px "GothamProBold";
-  display: flex;
-  align-items: center;
-  text-align: justify;
-  text-transform: uppercase;
-}
-
-.welcome__title {
-  font: 30px/29px "GothamProBold";
-  display: flex;
-  align-items: center;
-  text-align: justify;
-  text-transform: uppercase;
-}
-
-.showcase__title, .stories__title {
-  font: 22px/21px "GothamProBold";
-  display: flex;
-  align-items: center;
-  text-align: justify;
-  text-transform: uppercase;
-}
-
-.showcase__product_text {
-  font: 12px/11px "GothamProRegular";
-  display: flex;
-  align-items: center;
-  text-align: justify;
-}
-
-.showcase__product_price {
-  font: 14px/13px "GothamProBold";
-  display: flex;
-  align-items: center;
-  text-align: justify;
+.welcome__link, .news__link {
+  color: white;
 }
 
 .news__title {
@@ -57,7 +23,6 @@
 
 .story__date {
   font: 12px/11px "GothamProBold";
-  /* identical to box height */
   display: flex;
   align-items: center;
   text-align: right;
@@ -68,7 +33,6 @@
 
 .album__title {
   font: 18px/17px "GothamProBold";
-  /* identical to box height */
   display: flex;
   align-items: center;
   text-align: right;
@@ -79,7 +43,6 @@
 
 .my-account__title, .customer-service__title, .miscellaneous__title, .newsletter-sign-up__title, .newsletter-sign-up__button {
   font: 12px/11px "GothamProBold";
-  /* identical to box height */
   display: flex;
   align-items: center;
   text-align: justify;
@@ -89,10 +52,568 @@
 
 .my-account__link, .customer-service__link, .miscellaneous__link, .newsletter-sign-up__link, .newsletter-sign-up__text, .conclusion__text {
   font: 12px/11px "GothamProRegular";
-  /* identical to box height */
   display: flex;
   align-items: center;
   text-align: justify;
 
   color: white;
+}
+
+.buger__line {
+  width: 60.85px;
+  height: 8.89px;
+  background: black;
+  margin: 0 0 7.62px 0;
+}
+
+.nav-big {
+  display: flex;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.nav-big__link {
+  color: black;
+  padding: 2px 5px;
+  text-align: center;
+}
+
+.nav-big__link:hover {
+  background: #adff2f;
+}
+
+.nav-big__search {
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+}
+
+.nav-big__1 {
+font: 10px/10px "GothamProBold";
+text-align: center;
+color: white;
+width: 13.47px;
+height: 14.92px;
+left: calc(50% - 13.47px/2 + 413.22px);
+border: 2px solid black;
+border-radius: 50%;
+background: black;
+top: 51.65px;
+box-sizing: border-box;
+}
+
+@media (max-width: 1500px) {
+  .nav-small {
+    display: none;
+  }
+  .nav-big {
+    width: 1030px;
+    height: 95.79px;
+  }
+  .nav-big__logo {
+    margin: 0 10px 0 0;
+  }
+  .nav-big__link {
+    margin: 0 0 0 23px;
+  }
+  .nav-big__search {
+    margin: 0 0 0 191.55px;
+    width: 177.93px;
+  }
+  .nav-big__search_img {
+    vertical-align: -3px;
+    margin: 0 2px 5px 792px;
+    position: absolute;
+  }
+  .nav-big__flag {
+    width: 20px;
+    height: 13.1px;
+    padding: 0 0 0 35px;
+  }
+  .welcome {
+    height: 280px;
+    width: 1030px;
+    background: url(photo/welcome-background.png);
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 90.87px 86.94px 14.97px 11.99px 75.23px / 59.58px 121.12px 195px;
+  }
+  .nav-big__link, .welcome__link, .news__link, .story__link {
+    font: 12px/11px "GothamProBold";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .welcome__title {
+    font: 30px/29px "GothamProBold";
+    color: white;
+    text-transform: uppercase;
+  }
+  .welcome__arrow {
+    background: white;
+
+    height: 1px;
+    width: 42.83px;
+  }
+  .welcome__arrow::after {
+    content: ' ';
+    position: absolute;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    padding: 1px;
+    transform: rotate(-45deg);
+
+    left: 177.6px;
+    top: 197.8px;
+  }
+  .our__title, .stories__title {
+    font: 22px/21px "GothamProBold";
+    text-transform: uppercase;
+  }
+  .our__title {
+    padding: 53.78px 0 15.26px 0;
+  }
+  .showcase {
+    width: 1030px;
+  }
+  .showcase__product_text {
+    font: 12px/11px "GothamProRegular";
+
+    margin: 0;
+    padding: 23.67px 0 0 0;
+  }
+  .showcase__product_price {
+    font: 14px/13px "GothamProBold";
+  }
+  .colours {
+    width: 54px;
+    height: 9px;
+  }
+  .colour {
+    width: 7px;
+    height: 7px;
+  }
+  .colour_big {
+    width: 9px;
+    height: 9px;
+  }
+  .showcase__product_price_and_colours {
+    width: 206px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 1169px) {
+  .nav-small {
+    display: none;
+  }
+  .nav-big {
+    width: 930px;
+    height: 95.79px;
+  }
+  .nav-big__logo {
+    margin: 0 10px 0 0;
+  }
+  .nav-big__link {
+    margin: 0 0 0 14.25px;
+  }
+  .sign {
+    margin: 0 20.33px 0 26.6px;
+  }
+  .cart {
+    margin: 0;
+  }
+  .nav-big__search {
+    margin: 0 0 0 140.6px;
+    width: 160.65px;
+  }
+  .nav-big__search_img {
+    vertical-align: -3px;
+    margin: 0 2px 5px 693px;
+    position: absolute;
+  }
+  .nav-big__flag {
+    width: 20px;
+    height: 13.1px;
+    padding: 0 0 0 26px;
+  }
+  .welcome {
+    height: 252.82px;
+    width: 930px;
+    background: url(photo/welcome-background.png);
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 82.05px 78.5px 13.52px 10.83px 67.92px / 53.79px 129.35px 79.63px;
+  }
+  .nav-big__link, .welcome__link, .news__link, .story__link {
+    font: 12px/11px "GothamProBold";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .welcome__title {
+    font: 30px/29px "GothamProBold";
+    color: white;
+    text-transform: uppercase;
+  }
+  .welcome__arrow {
+    background: white;
+
+    height: 1px;
+    width: 45.74px;
+  }
+  .welcome__arrow::after {
+    content: ' ';
+    position: absolute;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    padding: 1px;
+    transform: rotate(-45deg);
+
+    left: 179.6px;
+    top: 178px;
+  }
+  .our__title, .stories__title {
+    font: 22px/21px "GothamProBold";
+    text-transform: uppercase;
+  }
+  .our__title {
+    padding: 67.38px 0 15.26px 0;
+  }
+  .showcase {
+    width: 930px;
+  }
+  .showcase__product_text {
+    font: 12px/11px "GothamProRegular";
+
+    margin: 0;
+    padding: 23.67px 0 0 0;
+  }
+  .showcase__product_price {
+    font: 14px/13px "GothamProBold";
+  }
+  .colours {
+    width: 50.17px;
+    height: 9px;
+  }
+  .colour {
+    width: 6.3px;
+    height: 7px;
+  }
+  .colour_big {
+    width: 8.14px;
+    height: 9px;
+  }
+  .showcase__product_price_and_colours {
+    width: 186.3px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .nav-big {
+    display: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+   }
+  .nav-small {
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: space-between;
+    margin: auto;
+
+    width: 856px;
+    height: 113.54px;
+  }
+  .nav-small__logo {
+    width: 156.18px;
+    height: 33.74px;
+  }
+  .welcome {
+    height: 527px;
+    width: 100%;
+    background: url(photo/welcome-background-768.png);
+    position: relative;
+    background-size: cover;
+    display: grid;
+    grid-template: 145px 168.99px 77px 30px 88.03px / 56px 250px 355px;
+  }
+  .welcome__link, .news__link, .story__link {
+    font: 25px/30px "GothamProBold";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .welcome__title {
+    font: 63px/65px "GothamProBold";
+    color: white;
+    text-transform: uppercase;
+  }
+  .welcome__arrow {
+    background: white;
+
+    width: 70.72px;
+    height: 2px;
+  }
+  .welcome__arrow::after {
+    content: ' ';
+    position: absolute;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    padding: 2px;
+    transform: rotate(-45deg);
+
+    left: 301px;
+    top: 403px;
+  }
+  .our__title, .stories__title {
+    font: 30px/29px "GothamProBold";
+    text-transform: uppercase;
+  }
+  .our__title {
+    padding: 67.43px 0 20.59px 0;
+  }
+  .showcase {
+    width: 628px;
+  }
+  .showcase__product_three, .showcase__product_four, .line {
+    display: none;
+  }
+  .showcase__product_image {
+    width: 229.52px;
+    height: 233.42px;
+  }
+  .showcase__product_text {
+    font: 20px/19px "GothamProRegular";
+
+    margin: 0;
+    padding: 23.67px 0 7.95px 0;
+  }
+  .showcase__product_price {
+    font: 25px/23px "GothamProBold";
+  }
+  .colours {
+    width: 95px;
+    height: 20px;
+  }
+  .colour, .colour_big {
+    width: 20px;
+    height: 20px;
+  }
+  .showcase__product_price_and_colours {
+    width: 251.68px;
+    height: 32.37px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .nav-big {
+    display: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .nav-small {
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: space-between;
+    margin: auto;
+
+    max-width: 856px;
+    height: 113.54px;
+  }
+  .nav-small__logo {
+    width: 104px;
+    height: 22px;
+  }
+  .welcome {
+    height: 252.82px;
+    width: 320px;
+    background: url(photo/welcome-background-320.png);
+    position: relative;
+    margin: 33.76px auto 0 auto;
+    display: grid;
+    grid-template-columns: 53.79px 208.98px 129.36px;
+    grid-template-rows: 82.05px 78.5px 13.52px 10.83px 67.92px;
+  }
+  .our__title {
+    padding: 38px 0 13px 0;
+  }
+  .showcase {
+    width: 281px;
+  }
+  .colours {
+    width: 75px;
+    height: 15px;
+  }
+  .colour, .colour_big {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-big {
+    display: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .nav-small {
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: space-between;
+    margin: auto;
+
+    max-width: 856px;
+    height: 113.54px;
+  }
+  .nav-small__logo {
+    width: 104px;
+    height: 22px;
+  }
+  .welcome {
+    height: 252.82px;
+    width: 930px;
+    background: url(photo/welcome-background-320.png);
+    position: relative;
+    margin: 33.76px auto 0 auto;
+    display: grid;
+    grid-template-columns: 53.79px 208.98px 129.36px;
+    grid-template-rows: 82.05px 78.5px 13.52px 10.83px 67.92px;
+  }
+  .our__title {
+    padding: 38px 0 13px 0;
+  }
+  .showcase {
+    width: 281px;
+  }
+  .colours {
+    width: 75px;
+    height: 15px;
+  }
+  .colour, .colour_big {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+
+
+.welcome__title {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 4;
+
+  margin: 0;
+}
+
+.welcome__link, .welcome__arrow {
+  grid-row-start: 4;
+  grid-column-start: 2;
+  grid-row-end: 5;
+  grid-column-end: 3;
+
+  align-self: center;
+}
+
+.welcome__link {
+  justify-self: start;
+}
+
+.welcome__arrow {
+  justify-self: end;
+}
+
+.our__title {
+  text-align: center;
+  margin: 0;
+}
+
+
+.showcase {
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.line {
+  border-left: 1px solid;
+  opacity: 20%;
+  height: 101px;
+  align-self: center;
+  margin: 0 0 59px 0;
+}
+
+.showcase__product_price {
+  margin: 0;
+}
+
+.showcase__product_price_and_colours {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.colours {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-flow: stretch;
+}
+
+.colour {
+  display: flex;
+  border-radius: 50%;
+}
+
+.colour_big {
+  border-radius: 50%;
+}
+
+.colour_grey {
+  background-color: #C4C4C4;
+}
+
+.colour_brown {
+  background-color: #B62E3C;
+}
+
+.colour_dark_brown {
+  background-color: #762E31;
+}
+
+.colour_yellow {
+  background-color: #FDB431;
+}
+
+.colour_black {
+  background-color: #0E1211;
+}
+
+.colour_orange {
+  background-color: #E29D69;
+}
+
+.colour_blue {
+  background-color: #41479B;
+}
+
+.colour_light_blue {
+  background-color: #257DA9;
 }
